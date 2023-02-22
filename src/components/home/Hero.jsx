@@ -12,7 +12,7 @@ const Hero = () => {
         <div className={heroCss.brandTagLine}>
           <h1>Mobile startegy game</h1>
           <h2>Inspired by clash of clans</h2>
-          <button>Start Now</button>
+          {/* <button>Start Now</button> */}
         </div>
       </div>
     </div>
