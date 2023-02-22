@@ -1,0 +1,181 @@
+/* hero section  */
+
+@font-face {
+  font-family: "Kompeni";
+  src: url("/public/fonts/KOMPENI-REGULAR.TTF");
+}
+
+.heroContainer {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.logo {
+  width: 201px;
+  height: 108px;
+  top: 0;
+  position: absolute;
+  background: url(/images/hero/logo.png);
+  background-repeat: no-repeat;
+  left: 50%;
+  transform: translate(-50%);
+  background-size: contain;
+}
+.brandTagLine {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translate(-50%);
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+.brandTagLine h1 {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Kompeni";
+  line-height: 1;
+}
+.brandTagLine h2 {
+  color: #a8a8a8;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.heroImage {
+  width: 100%;
+  height: 300px;
+  background: url("/images/hero/background.png");
+  background-repeat: no-repeat;
+  background-position: center 65%;
+  box-shadow: inset 0 59px 43px -30px #000000;
+  background-size: 986px;
+}
+.bottomOverlay {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background: #000;
+  box-shadow: 0px -14px 19px #000;
+}
+
+/* 3 in one section  */
+.threeInOneContainer {
+  width: 100%;
+  min-height: 300px;
+  background: #000;
+  text-transform: uppercase;
+  padding: 50px 0;
+}
+.imageContainer {
+  width: fit-content;
+  margin: 0 auto;
+}
+.threeInOneContainer img {
+  height: 125px;
+  margin: 5px;
+}
+
+.threeInOneContainer p {
+  color: #fff;
+  opacity: 0.63;
+  font-size: 14px;
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+.btnContainer {
+  max-width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.ClaimContainer {
+  margin: 50px auto;
+  padding: 50px 5px;
+  width: 90%;
+  border: 2px solid #8ce30b;
+  border-radius: 20px;
+  max-width: 350px;
+  overflow: hidden;
+}
+.ClaimContainer .imageContainer {
+  position: relative;
+  height: 300px;
+  max-width: 350px;
+  width: 100%;
+}
+.ClaimContainer img {
+  height: 150px;
+  position: absolute;
+}
+.ClaimContainer .image1 {
+  top: 81px;
+  left: -27%;
+  transform: rotate(340deg);
+}
+.ClaimContainer .image2 {
+  top: 50px;
+  left: 45%;
+  height: 160px;
+  transform: translate(-50%);
+}
+.ClaimContainer .image3 {
+  top: 77px;
+  right: -24%;
+  transform: rotate(20deg);
+}
+
+/* Sarge Hero */
+.SargeHeroContainer {
+  height: auto;
+  color: #fff;
+}
+.SargeHeroContainer h3 {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+.SargeHeroContainer .sargeHeroImage {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 336px;
+  height: 300px;
+  background: url("/images/Sargehero/SargeHerosm.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sargeCharacterstics {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.sargeCharacterstics div {
+  display: flex;
+  align-items: center;
+  margin: 5px auto;
+  width: 85%;
+}
+
+.SargeHeroContainer .sargeCharacterstics img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+/* BraveWarriors */
+
+.BraveWarriorsContainer {
+  margin: 50px 0;
+}
+
+/* @media only screen and (min-width: 475px) {
+  .heroContainer {
+    height: 450px;
+  }
+  .heroImage {
+    background-size: 250%;
+    height: 350px;
+  }
+} */
